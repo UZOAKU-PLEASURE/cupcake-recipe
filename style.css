@@ -1,0 +1,62 @@
+*{box-sizing:border-box; margin:0; padding:0}
+
+:root{--header-color: #7e1a36;
+    --background-img:url(cupcake-bg.png);
+    --body-font-size: 1.1rem;
+    --header-font-size:1.4rem;
+    --color: #fff;
+    --font-family: Arial, sans-serif;
+    --line-height: 1.6;
+
+}
+
+.Title,h1,h2,h3{background-color: var(--header-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--color);
+    border-radius: 999px;
+    font-size: 2rem;
+    font-family: var(--font-family);
+    width:fit-content;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.h1,h2,h3{font-family: var(--header-font-size);}
+
+
+.main-body{background-image: var(--background-img);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: var(--line-height);
+    font-size: var(--body-font-size);
+}
+
+.recipe-card {
+  width: min(90%, 700px);
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+}
+
+.p,
+li {
+  margin-bottom: 0.7rem;
+}
+
+.ul,
+ol {
+  padding-left: 1.5rem;
+}
+
+mark {
+  background-color: #ffd6e3; /* soft pink */
+  color: #7e1a36;
+  padding: 0.1rem 0.3rem;
+  border-radius: 6px;
+}
